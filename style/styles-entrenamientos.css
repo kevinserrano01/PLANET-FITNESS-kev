@@ -24,7 +24,7 @@ body{
                         'contenido contenido contenido contenido'
                         'card1 card2 card3 card4'
                         'footer footer footer footer';
-                        grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
 }
 
 .grid-container div,
@@ -107,7 +107,7 @@ body{
 .grid-container .widget-2,
 .grid-container .widget-3,
 .grid-container .widget-4{
-    background: #ffffff;
+    background: #e9ecf4;
     color: rgb(0, 0, 0);
     height: auto;
     border-radius: 20px; /*bordes redondeados*/
@@ -153,7 +153,7 @@ body{
 }
 .grid-container .card:hover{
     box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .grid-container .article-contenido{
@@ -195,13 +195,14 @@ body{
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
 
-    /* margin: 23px 20px 23px 100px; */
+    margin: 20px 0px 0px 0px
 }
 .grid-container .boton-aplicar:hover{
     background: #35858B;
     transition: background-color 1s;
     color: #fff;
     font-size: 17px;
+    cursor: pointer;
 }
 
 /* FIN DE ESTILOS DE BOTON APLICAR_________________________________________________________________________________________________________*/

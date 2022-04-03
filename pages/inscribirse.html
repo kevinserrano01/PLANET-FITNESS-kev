@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style-inscribirse.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>PLANET FITNESS</title>
+</head>
+
+<body>
+    
+    <div class="grid-container">
+        <header class="header">
+            <a href="#" class="logo"><img src="../images/ICONO-GYM.ico" class="logo" alt="logo de Pagina" width="500px">
+            <h2 class="nombre">Planet Fit</h2></a>
+            
+            <nav class="navegacion">
+                <a href="../index.html">INICIO</a>
+                <a href="./nosotros.html">NOSOTROS</a>
+                <a href="./entrenamientos.html">ENTRENAMIENTOS</a>
+                <a href="./inscribirse.html">INSCRIBITE</a>
+                <a href="./contacto.html">CONTACTO</a>
+            </nav>
+        </header>
+
+        <section class="title">
+            <h1>EMPEZA A ENTRENAR</h1>
+            <h1>CON NOSOTROS</h1>
+            <h1>YA MISMO</h1>
+        </section>
+
+        <main class="contenido">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis exercitationem, iste voluptatibus repellendus recusandae, placeat ipsum quidem aliquid nihil nesciunt est.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis exercitationem, iste voluptatibus repellendus recusandae, placeat ipsum quidem aliquid nihil nesciunt est.
+            </p>
+        </main>
+
+            <div class="contenedor-form">
+                <div class="ingreso-datos">
+                    <!-- <label for="nombre">Nombre:</label> -->
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" required="">
+                    <!-- <label for="correo">Correo:</label> -->
+                    <input type="email" name="correo" placeholder="Correo electrónico">
+                    <!-- <label for="telefono">Telefono:</label> -->
+                    <input type="tel" name="telefono" placeholder="Teléfono o Celular">
+                </div>
+                
+                <div class="entrenamiento-elegir">
+                    <h3>ENTRENAMIENTO A ELEGIR:</h3>
+                        <select name="talles">
+                            <option value="" selected>Seleccionar una opción...</option>
+                            <option value="F">FUNCIONAL</option>
+                            <option value="C">CROSSFIT</option>
+                            <option value="M">MUSCULACIÓN</option>
+                            <option value="Z">ZUMBA</option>
+                        </select>
+                </div>
+
+                    <div class="boton-pagar">
+
+                        <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                        data-preference-id="437887003-178fc4d2-3dbc-4ac0-af05-68ddaf1f6879" data-source="button">
+                        </script>
+
+                        <!-- <a href="#"><input type="submit" value="¡INSCRIBIRSE!" name="submit"></a> -->
+                    </div>
+            </div>
+
+
+        <footer class="footer">
+            <p>©Copyright <strong>Kevin Serrano</strong>. Todos los derechos reservados.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

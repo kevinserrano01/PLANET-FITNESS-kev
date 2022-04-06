@@ -85,10 +85,12 @@ body{
 
 .grid-container .contenido{
     grid-area: contenido;
-    border-radius: 4px; /*bordes redondeados*/
+    border-radius: 20px; /*bordes redondeados*/
     background: #35858B;
     color: #fff;
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .grid-container .contenido h1{
     display: block;
@@ -115,22 +117,22 @@ body{
     /* border: 2px solid red; */
 }
 .grid-container .widget-1{
-    padding: 0;
+    /* padding: 0; */
     grid-area: card1;
 }
 .grid-container .widget-2{
-    padding: 0;
+    /* padding: 0; */
     grid-area: card2;
 }
 .grid-container .widget-3{
-    padding: 0;
+    /* padding: 0; */
     grid-area: card3;
 }
 .grid-container .widget-3 .article-contenido{
     margin-top: 25px;
 }
 .grid-container .widget-4{
-    padding: 0;
+    /* padding: 0; */
     grid-area: card4;
 }
 

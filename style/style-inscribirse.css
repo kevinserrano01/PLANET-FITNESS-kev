@@ -90,7 +90,7 @@ body{
 }
 
 .grid-container .container-form{
-    background: #9dff9b;
+    background: #F6FFA4;
     grid-area: form;
     padding: 40px;
     border-radius: 20px;
@@ -101,16 +101,15 @@ body{
 .grid-container .footer{
     background: #111111fa;
     color: #fff;
-    height: 90px;
+    height: 60px;
+    margin-top: 200px;
+    font-size: 13px;
 
     grid-area: footer;
     
     display: flex;
     justify-content: center;
-    align-items: center; /*mandar al centro el contenido*/
-}
-.grid-container .footer p{
-    text-align: center;
+    align-items: center;
 }
 
 

@@ -6,6 +6,11 @@
 .logotipo{
     height: 50px;
 }
+.iconos-redes{
+    text-decoration-line: none;
+    text-decoration: none;
+    color: black;
+}
 
 body{
     background: #e9ecf4;

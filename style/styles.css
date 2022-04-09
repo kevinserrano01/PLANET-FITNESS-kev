@@ -6,6 +6,11 @@
 .logotipo{
     height: 50px;
 }
+.iconos-redes{
+    text-decoration-line: none;
+    text-decoration: none;
+    color: black;
+}
 
 body{
     background: #e9ecf4;
@@ -50,12 +55,16 @@ body{
 
     grid-area: contenido;
 }
+.contenido h1{
+    font-size: 40px;
+}
 .contenido p{
     font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
 }
 
 .grid-container .sidebar{
-    background: #35858B;
+    background: #2F86A6;
     color: #fff;
     padding: 20px;
     border-radius: 4px; /*bordes redondeados*/
@@ -71,6 +80,9 @@ body{
     margin-bottom: 30px;
     text-align: center;
     font-size: 30px;
+}
+.grid-container .sidebar ul{
+    padding: 0;
 }
 .grid-container .sidebar ul li{
     font-size: 20px;
@@ -107,6 +119,7 @@ body{
     background: #111111fa;
     color: #fff;
     padding: 20px;
+    font-size: 14px;
 
     grid-area: footer;
     

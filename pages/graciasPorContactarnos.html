@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../images/ICONO-GYM.ico">
 
-    <!-- bs -->
+    <!-- LINK BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../style/style-inscribirse.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
     <title>PLANET FITNESS</title>
-</head>
 
+    <style>
+        .logotipo{
+            height: 50px;
+        }
+        .iconos-redes{
+            text-decoration-line: none;
+            text-decoration: none;
+            color: black;
+        }
+
+        .container .footer{
+            color: #9b9b9b;
+            text-align: center;
+            font-size: 13px;
+            margin-top: 300px;
+        }
+    </style>
+
+
+</head>
 <body>
     
     <div class="grid-container">
@@ -81,83 +89,22 @@
     </nav>
 </header>
 
-        <section class="title">
-            <h1>EMPEZA A ENTRENAR</h1>
-            <h1>CON NOSOTROS</h1>
-            <h1>YA MISMO</h1>
-        </section>
-
-        <main class="contenido">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis exercitationem, iste voluptatibus repellendus recusandae, placeat ipsum quidem aliquid nihil nesciunt est.
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis exercitationem, iste voluptatibus repellendus recusandae, placeat ipsum quidem aliquid nihil nesciunt est.
-            </p>
-        </main>
-
-        <!-- CONTENEDOR FORMULARIO__________________________________________________ -->
-            <div class="container-form">
-
-                <form class="row g-3">
-                    <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" required class="form-control" id="inputEmail4" placeholder="Correo Electronico">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Contraseña</label>
-                        <input type="password" required class="form-control" id="inputPassword4">
-                    </div>
-                    <div class="col-12">
-                        <label for="inputAddress" class="form-label">Nombre y Apellido</label>
-                        <input type="text" required class="form-control" id="inputAddress" placeholder="Nombre y Apellido">
-                    </div>
-
-                    
-                    <div class="col-md-6">
-                        <label for="inputCity" class="form-label">Ciudad</label>
-                        <input type="text" class="form-control" id="inputCity" required>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="inputState" class="form-label">Estado</label>
-                        <select id="inputState" class="form-select">
-                        <option  selected>Seleccione...</option>
-                        <option>Capital</option>
-                        <option>La Caldera</option>
-                        <option>Cerrillos</option>
-                        <option>San Lorenzo</option>
-                        <option>San Luis</option>
-                        <option>Otro</option>
-                        </select>
-                    </div>
-                    <div class="col-md-2">
-                        <label for="inputZip" class="form-label">Código Postal</label>
-                        <input type="text" required class="form-control" id="inputZip">
-                    </div>
-
-                    <select class="form-select" aria-label="Default select example">
-                        <option required selected>Seleccionar entrenamiento...</option>
-                        <option value="1">FUNCIONAL</option>
-                        <option value="2">CROSSFITE</option>
-                        <option value="3">MUSCULACION</option>
-                        <option value="3">ZUMBA</option>
-                    </select>
-
-                    <div class="col-12 d-flex justify-content-center">
-                        <button type="submit" class="btn btn-primary">INSCRIBIRSE</button>
-                    </div>
-                </form>
-                
-            </div>
-            <!-- FIN DE CONTENEDOR FORMULARIO__________________________________________________ -->
-
-            <footer class="footer">
-                <p>©Copyright <strong>Kevin Serrano</strong>. Todos los derechos reservados.</p>
-            </footer>
-
+    <div class="container mt-5">
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Bien hecho!</h4>
+            <p>Enviaste con éxito este importante mensaje a los profesores. En breve estaremos en contacto con usted.</p>
+            <hr>
+            <p class="mb-0">Recorda que siempre que necesite hacer una consulta, puede enviar un mensaje con todas sus dudas sobre algun tema que quiera consultar.</p>
+            <p>¡Muchas Gracias!</p>
+        </div>
     </div>
 
-    <!-- LINK JS DE BOOTSTRAP -->
+
+    <footer class="container">
+        <p class="footer">©Copyright <strong>Kevin Serrano</strong>. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- LINK BS JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-
 </body>
 </html>

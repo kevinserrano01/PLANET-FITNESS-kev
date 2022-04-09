@@ -9,6 +9,10 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+.logotipo{
+    height: 50px;
+}
+
 .grid-container{
     width: 100%;
     /* max-width: 1000px; */
@@ -27,8 +31,6 @@ body{
     grid-template-rows: auto auto auto auto;
 }
 
-.grid-container div,
-.grid-container .header,
 .grid-container .contenido,
 .grid-container .sidebar,
 .grid-container .footer{
@@ -38,50 +40,13 @@ body{
 
 /* ESTILOS DE CABECERA  */
 .grid-container .header{
-    /* background: #5f5f5ffa; */
-    background-image: linear-gradient(to left, #072227, white); /*GRADIANTE LINEAL*/
-    color: rgb(255, 255, 255); /*color de letra white*/
-
     grid-area: header;
-
-    display: flex;
-    justify-content: space-between; /*cada caja en las esquinas*/
-    align-items: center;
-    padding: 10px;
 }
-
-.grid-container .logo{
-    display: flex;
-    align-items: center;
-}
-.grid-container .logo img{
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
-}
-
-.grid-container .header a{
+.iconos-redes{
+    text-decoration-line: none;
     text-decoration: none;
-    color: #fff;
-    margin-right: 20px; /*margenes para separar las secciones*/
+    color: black;
 }
-.grid-container .header a:hover{
-    font-size: 18px;
-}
-
-.grid-container .header .nombre{
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color: #000;
-    font-family: 'Quicksand', sans-serif;
-}
-
-
 
 .grid-container .contenido{
     grid-area: contenido;
@@ -105,119 +70,28 @@ body{
 }
 
 
-.grid-container .widget-1, 
-.grid-container .widget-2,
-.grid-container .widget-3,
-.grid-container .widget-4{
-    background: #e9ecf4;
-    color: rgb(0, 0, 0);
-    height: auto;
-    border-radius: 20px; /*bordes redondeados*/
-    gap: 2rem;
-    /* border: 2px solid red; */
-}
 .grid-container .widget-1{
-    /* padding: 0; */
     grid-area: card1;
 }
 .grid-container .widget-2{
-    /* padding: 0; */
     grid-area: card2;
 }
 .grid-container .widget-3{
-    /* padding: 0; */
     grid-area: card3;
 }
-.grid-container .widget-3 .article-contenido{
-    margin-top: 25px;
-}
 .grid-container .widget-4{
-    /* padding: 0; */
     grid-area: card4;
 }
 
-.grid-container .article-imagen{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.card-img-top{
+    border-radius: 50%;
 }
-.grid-container .article-imagen img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px 20px 0 0; /*bordes redondeados solo arriba*/
-    text-align: center;
-}
-.grid-container .card{
-    background: #fff;
-    border-radius: 20px;
-    transition: 0.3s;
-    /* border: 3px solid blue; */
-}
-.grid-container .card:hover{
-    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
-    /* cursor: pointer; */
-}
-
-.grid-container .article-contenido{
-    border-radius: 0 0 20px 20px;
-    padding: 2rem;
-    /* font-family: ; */
-}
-.article-contenido .card-parrafo{
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #6b82a7;
-    margin: 0;
-}
-
-.grid-container .card-categoria{
-    font-size: 0.875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: 600;
-    color: #6b82a7;
-    display: block;
-    text-decoration: none;
-}
-
-.grid-container .card-title{
-    margin: 1rem;
-    color: #22447b;
-}
-
-
-/* INICIO DE ESTILOS DE BOTON APLICAR_________________________________________________________________________________________________________*/
-.grid-container .article-contenido .boton-aplicar{
-    background: #ffffff;
-    color: #000000;
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    border-radius: 30px;
-    font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
-
-    margin: 20px 0px 0px 0px
-}
-.grid-container .boton-aplicar:hover{
-    background: #35858B;
-    transition: background-color 1s;
-    color: #fff;
-    font-size: 17px;
-    cursor: pointer;
-}
-
-/* FIN DE ESTILOS DE BOTON APLICAR_________________________________________________________________________________________________________*/
-
-
-
-
 
 
 .grid-container .footer{
     background: #111111fa;
     color: #fff;
-    height: 60px;
+    height: 90px;
 
     grid-area: footer;
     
